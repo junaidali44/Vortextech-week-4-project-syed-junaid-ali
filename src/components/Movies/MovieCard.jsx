@@ -9,7 +9,7 @@ import {
   faHeart,
   faPlay
 } from '@fortawesome/free-solid-svg-icons';
-import { getImageUrl, formatDate, getRatingPercentage, formatRuntime } from '../../api/tmdb';
+import { getImageUrl, formatDate, getRatingPercentage } from '../../api/tmdb';
 import './MovieCard.css';
 
 const MovieCard = ({ movie, viewMode = 'grid' }) => {
@@ -17,7 +17,7 @@ const MovieCard = ({ movie, viewMode = 'grid' }) => {
   const posterUrl = getImageUrl(movie.poster_path, 'medium', 'poster');
   const backdropUrl = getImageUrl(movie.backdrop_path, 'medium', 'backdrop');
   const rating = getRatingPercentage(movie.vote_average);
-  const isFavorite = false; // Will be connected to favorites context
+  const isFavorite = false;
 
   const getRatingColor = (rating) => {
     if (rating >= 80) return '#22c55e';
@@ -112,7 +112,6 @@ const MovieCard = ({ movie, viewMode = 'grid' }) => {
               className="action-btn favorite-btn"
               onClick={(e) => {
                 e.preventDefault();
-                // Toggle favorite
               }}
             >
               <FontAwesomeIcon icon={faHeart} />
@@ -121,7 +120,6 @@ const MovieCard = ({ movie, viewMode = 'grid' }) => {
               className="action-btn play-btn"
               onClick={(e) => {
                 e.preventDefault();
-                // Play trailer
               }}
             >
               <FontAwesomeIcon icon={faPlay} />
