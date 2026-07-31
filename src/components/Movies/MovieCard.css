@@ -1,0 +1,117 @@
+.movie-card {
+  display: block;
+  text-decoration: none;
+  background: var(--coffee-dark);
+  border: 1px solid rgba(92, 61, 51, 0.3);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  height: 100%;
+}
+
+.movie-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--coffee-gold);
+  box-shadow: var(--shadow-lg);
+}
+
+.movie-card-image {
+  position: relative;
+  padding-top: 150%;
+  overflow: hidden;
+  background: var(--coffee-medium);
+}
+
+.movie-poster {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.movie-card:hover .movie-poster {
+  transform: scale(1.05);
+}
+
+.movie-poster-placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  background: var(--coffee-medium);
+}
+
+.movie-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(26, 20, 16, 0.7);
+  backdrop-filter: blur(4px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.3s ease;
+  gap: var(--spacing-sm);
+}
+
+.movie-card:hover .movie-card-overlay {
+  opacity: 1;
+}
+
+.movie-card-rating {
+  background: var(--coffee-gold);
+  color: var(--coffee-black);
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.movie-card-view {
+  color: var(--coffee-white);
+  font-weight: 500;
+  font-size: 0.9rem;
+  border: 1px solid var(--coffee-gold);
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border-radius: var(--radius-sm);
+  transition: all 0.3s ease;
+}
+
+.movie-card:hover .movie-card-view {
+  background: var(--coffee-gold);
+  color: var(--coffee-black);
+}
+
+.movie-card-content {
+  padding: var(--spacing-md);
+}
+
+.movie-card-title {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--coffee-cream);
+  margin-bottom: var(--spacing-xs);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.movie-card-date {
+  font-size: 0.8rem;
+  color: var(--coffee-light);
+  font-weight: 400;
+}
