@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import MovieCard from '../components/movies/MovieCard';
+import MovieCard from '../components/Movies/MovieCard';
 import './Favorites.css';
 
 const Favorites = () => {
