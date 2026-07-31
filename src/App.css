@@ -6,7 +6,6 @@
 
 .main-content {
   flex: 1;
-  padding-top: var(--spacing-xl);
 }
 
 .footer {

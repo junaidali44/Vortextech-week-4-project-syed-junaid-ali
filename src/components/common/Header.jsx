@@ -9,7 +9,7 @@ import {
   faStar, 
   faInfoCircle,
   faTimes
-} from '@fortawesome/free-solid-svg-icons';
+} from '@fortawesome/free-solid-svg-icons'; // ✅ All from solid
 import './Header.css';
 
 const Header = () => {

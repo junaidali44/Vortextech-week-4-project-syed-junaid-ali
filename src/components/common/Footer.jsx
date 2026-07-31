@@ -1,20 +1,20 @@
-
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 
-  faFilm, 
   faGithub, 
   faTwitter, 
   faLinkedin, 
   faYoutube 
-} from '@fortawesome/free-brands-svg-icons';
+} from '@fortawesome/free-brands-svg-icons'; // ✅ Brand icons
 import { 
+  faFilm,
   faHome, 
   faList, 
   faStar, 
   faInfoCircle,
   faHeart
-} from '@fortawesome/free-solid-svg-icons';
+} from '@fortawesome/free-solid-svg-icons'; // ✅ Solid icons
 import './Footer.css';
 
 const Footer = () => {
@@ -116,7 +116,7 @@ const Footer = () => {
               </a>
             </div>
             <p className="footer-credit">
-              Made with <FontAwesomeIcon icon={faHeart} className="footer-heart" /> & ☕
+              Made with <FontAwesomeIcon icon={faHeart} className="footer-heart" /> &amp; ☕
             </p>
           </div>
         </div>
