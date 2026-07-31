@@ -16,7 +16,7 @@ import {
 import useFetch from '../hooks/useFetch';
 import { endpoints, getImageUrl } from '../api/tmdb';
 import LoadingSpinner from '../components/common/LoadingSpinner';
-import MovieCard from '../components/movies/MovieCard';
+import MovieCard from '../components/Movies/MovieCard';
 import './Home.css';
 
 const Home = () => {
