@@ -46,8 +46,8 @@ const About = () => {
           <div className="about-tech">
             <h4>Built With</h4>
             <div className="tech-tags">
-              <span className="tech-tag">React 18</span>
-              <span className="tech-tag">React Router v6</span>
+              <span className="tech-tag">React</span>
+              <span className="tech-tag">React Router</span>
               <span className="tech-tag">Vite</span>
               <span className="tech-tag">Axios</span>
               <span className="tech-tag">TMDB API</span>
