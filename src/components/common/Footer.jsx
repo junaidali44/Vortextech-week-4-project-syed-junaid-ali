@@ -123,7 +123,7 @@ const Footer = () => {
 
         <div className="footer-bottom">
           <p className="footer-copyright">
-            &copy; {currentYear} CineVault. All rights reserved.
+            &copy; {currentYear} cinevualt. All rights reserved.
           </p>
           <p className="footer-powered">
             Powered by <a href="https://www.themoviedb.org/" target="_blank" rel="noopener noreferrer">

@@ -7,14 +7,14 @@ const About = () => {
       <div className="container">
         <div className="about-content">
           <h2 className="section-title">
-            About <span>CineVault</span>
+            About <span>cinevualt</span>
           </h2>
           
           <div className="about-card">
             <div className="about-icon">🎬</div>
             <h3>Your Premium Movie Discovery Platform</h3>
             <p>
-              CineVault is a modern movie discovery application built with React,
+              cinevualt is a modern movie discovery application built with React,
               powered by The Movie Database (TMDB) API. Find trending movies,
               explore genres, and build your personal watchlist.
             </p>

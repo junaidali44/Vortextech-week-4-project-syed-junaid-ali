@@ -4,7 +4,7 @@ import useFetch from '../hooks/useFetch';
 import useDebounce from '../hooks/useDebounce';
 import { endpoints } from '../api/tmdb';
 import LoadingSpinner from '../components/common/LoadingSpinner';
-import MovieCard from '../components/movies/MovieCard';
+import MovieCard from '../components/Movies/MovieCard';
 import './Search.css';
 
 const Search = () => {

@@ -13,7 +13,7 @@ import {
 import useFetch from '../hooks/useFetch';
 import { endpoints } from '../api/tmdb';
 import LoadingSpinner from '../components/common/LoadingSpinner';
-import MovieCard from '../components/movies/MovieCard';
+import MovieCard from '../components/Movies/MovieCard';
 import './Movies.css';
 
 const Movies = () => {
@@ -23,7 +23,7 @@ const Movies = () => {
   
   const [category, setCategory] = useState(initialCategory);
   const [page, setPage] = useState(1);
-  const [viewMode, setViewMode] = useState('grid'); // 'grid' or 'list'
+  const [viewMode, setViewMode] = useState('grid'); 
 
   const categoryMap = {
     popular: { endpoint: endpoints.popular, label: 'Popular', icon: faFire },

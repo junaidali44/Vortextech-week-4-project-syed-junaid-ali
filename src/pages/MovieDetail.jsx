@@ -24,7 +24,7 @@ import {
 import useFetch from '../hooks/useFetch';
 import { endpoints, getImageUrl, formatDate, formatRuntime, getRatingPercentage } from '../api/tmdb';
 import LoadingSpinner from '../components/common/LoadingSpinner';
-import MovieCard from '../components/movies/MovieCard';
+import MovieCard from '../components/Movies/MovieCard';
 import './MovieDetail.css';
 
 const MovieDetail = () => {
