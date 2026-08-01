@@ -29,7 +29,7 @@ This is the final project for Week 4 of the VortexTech Web Development Internshi
 
 ## 🌐 Live Demo
 
-**🔗 View Live:** [https://cinevault.netlify.app]
+**🔗 View Live:** [https://cinevualt.netlify.app/]
 
 ---
 
