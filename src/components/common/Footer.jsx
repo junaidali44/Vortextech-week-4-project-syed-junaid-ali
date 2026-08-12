@@ -27,7 +27,7 @@ const Footer = () => {
           <div className="footer-brand">
             <Link to="/" className="footer-logo">
               <FontAwesomeIcon icon={faFilm} className="footer-logo-icon" />
-              <span className="footer-logo-text">Cine<span>Vault</span></span>
+              <span className="footer-logo-text">Silver<span>Screen</span></span>
             </Link>
             <p className="footer-description">
               Your premium movie discovery platform. 
@@ -123,7 +123,7 @@ const Footer = () => {
 
         <div className="footer-bottom">
           <p className="footer-copyright">
-            &copy; {currentYear} cinevualt. All rights reserved.
+            &copy; {currentYear} SilverScreen. All rights reserved.
           </p>
           <p className="footer-powered">
             Powered by <a href="https://www.themoviedb.org/" target="_blank" rel="noopener noreferrer">

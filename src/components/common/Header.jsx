@@ -29,7 +29,7 @@ const Header = () => {
       <div className="container header-container">
         <Link to="/" className="logo">
           <FontAwesomeIcon icon={faFilm} className="logo-icon" />
-          <span className="logo-text">Cine<span>Vault</span></span>
+          <span className="logo-text">Silver<span>Screen</span></span>
         </Link>
 
         <nav className="nav-menu">

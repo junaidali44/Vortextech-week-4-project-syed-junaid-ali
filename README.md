@@ -1,4 +1,4 @@
-# 🎬 CineVault - Movie Discovery App
+# 🎬 SilverScreen - Movie Discovery App
 
 > **VortexTech Web Development Internship - Week 4 Project**  
 > *React App with Live API Integration*
@@ -12,7 +12,7 @@
 
 ## 📋 Project Overview
 
-CineVault is a movie discovery web application built with React. It allows users to browse trending movies, search for their favorite films, and view detailed information about each movie. The app fetches live data from The Movie Database (TMDB) API.
+SilverScreen is a movie discovery web application built with React. It allows users to browse trending movies, search for their favorite films, and view detailed information about each movie. The app fetches live data from The Movie Database (TMDB) API.
 
 This is the final project for Week 4 of the VortexTech Web Development Internship Program.
 
@@ -29,7 +29,7 @@ This is the final project for Week 4 of the VortexTech Web Development Internshi
 
 ## 🌐 Live Demo
 
-**🔗 View Live:** [https://cinevualt.netlify.app/]
+**🔗 View Live:** [https://SilverScreen.netlify.app/]
 
 ---
 
@@ -67,7 +67,7 @@ This is the final project for Week 4 of the VortexTech Web Development Internshi
 ---
 
 ## 📁 Project Structure
-cinevault/
+SilverScreen/
 ├── src/
 │ ├── api/
 │ │ └── tmdb.js # API configuration
